@@ -6,11 +6,27 @@
 
     <groupId>com.ethen</groupId>
     <artifactId>in-depth-spring-source</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-in-action</module>
+        <module>spring-boot-in-action</module>
+        <module>spring-source-analysis</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot</artifactId>
+                <version>2.5.5</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

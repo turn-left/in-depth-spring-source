@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="in-depth-spring-source" />
+        <module name="spring-in-action" />
+        <module name="spring-boot-in-action" />
+        <module name="spring-source-analysis" />
       </profile>
     </annotationProcessing>
   </component>
