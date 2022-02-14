@@ -6,10 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-in-action" />
+        <module name="spring-boot-source-analysis" />
         <module name="spring-boot-in-action" />
+        <module name="spring-in-action" />
         <module name="spring-source-analysis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="in-depth-spring-source" target="8" />
+      <module name="spring-boot-in-action" target="8" />
+      <module name="spring-boot-source-analysis" target="8" />
+      <module name="spring-in-action" target="8" />
+      <module name="spring-source-analysis" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

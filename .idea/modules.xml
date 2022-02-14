@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/in-depth-spring-source.iml" filepath="$PROJECT_DIR$/in-depth-spring-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-in-action/spring-boot-in-action.iml" filepath="$PROJECT_DIR$/spring-boot-in-action/spring-boot-in-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-source-analysis/spring-boot-source-analysis.iml" filepath="$PROJECT_DIR$/spring-boot-source-analysis/spring-boot-source-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-in-action/spring-in-action.iml" filepath="$PROJECT_DIR$/spring-in-action/spring-in-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-source-analysis/spring-source-analysis.iml" filepath="$PROJECT_DIR$/spring-source-analysis/spring-source-analysis.iml" />
+    </modules>
+  </component>
+</project>

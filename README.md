@@ -7,15 +7,17 @@
 - Spring Bean的生命周期
 - Spring AOP
 - Spring 事务
+- Spring MVC原理
 
 #### 问题
 
 - 常用BeanPostProcessor总结
 - 常用BeanFactoryPostProcessor总结
 - Environment类深入分析
-- 条件注入总结
-- Springboot自动装配
+- SpringBoot条件注入总结
+- SpringBoot自动装配
 - Spring配置中心原理
+
 
 #### 参考资源
 
