@@ -14,7 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="in-depth-spring-source" target="8" />
-      <module name="spring-boot-in-action" target="8" />
+      <module name="spring-boot-in-action" target="1.8" />
       <module name="spring-boot-source-analysis" target="8" />
       <module name="spring-in-action" target="8" />
       <module name="spring-source-analysis" target="8" />
