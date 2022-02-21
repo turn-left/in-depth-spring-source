@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean</OriginalElement>
+  <nodes>
+    <node x="287.375" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="278.0" y="83.0">org.springframework.core.Ordered</node>
+    <node x="368.5" y="211.5">javax.servlet.Servlet</node>
+    <node x="207.74999999999997" y="342.0">org.springframework.boot.web.servlet.ServletRegistrationBean</node>
+    <node x="80.25" y="255.0">org.springframework.boot.web.servlet.DynamicRegistrationBean</node>
+    <node x="456.0" y="83.0">org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath</node>
+    <node x="268.75" y="427.0">org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean</node>
+    <node x="135.25" y="168.0">org.springframework.boot.web.servlet.RegistrationBean</node>
+    <node x="-25.0" y="83.0">org.springframework.boot.web.servlet.ServletContextInitializer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.boot.web.servlet.RegistrationBean" target="org.springframework.core.Ordered" relationship="REALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="236.74999999999997" y="142.0" />
+      <point x="344.5" y="142.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean" target="org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath" relationship="REALIZATION">
+      <point x="86.5" y="-16.5" />
+      <point x="528.25" y="401.0" />
+      <point x="577.5" y="401.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.boot.web.servlet.ServletRegistrationBean" target="org.springframework.boot.web.servlet.DynamicRegistrationBean" relationship="GENERALIZATION">
+      <point x="-73.75" y="-16.5" />
+      <point x="281.5" y="315.0" />
+      <point x="236.75" y="315.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.boot.web.servlet.DynamicRegistrationBean" target="org.springframework.boot.web.servlet.RegistrationBean" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.boot.web.servlet.ServletRegistrationBean" target="javax.servlet.Servlet" relationship="DEPENDENCY">
+      <point x="73.75" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.boot.web.servlet.ServletContextInitializer" target="java.lang.FunctionalInterface" relationship="ANNOTATION">
+      <point x="0.0" y="-16.5" />
+      <point x="104.0" y="58.0" />
+      <point x="397.375" y="58.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath" target="java.lang.FunctionalInterface" relationship="ANNOTATION">
+      <point x="0.0" y="-16.5" />
+      <point x="577.5" y="58.0" />
+      <point x="397.375" y="58.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean" target="org.springframework.boot.web.servlet.ServletRegistrationBean" relationship="GENERALIZATION">
+      <point x="-86.5" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.boot.web.servlet.RegistrationBean" target="org.springframework.boot.web.servlet.ServletContextInitializer" relationship="REALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="236.75" y="142.0" />
+      <point x="104.0" y="142.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="337.0" y="230.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

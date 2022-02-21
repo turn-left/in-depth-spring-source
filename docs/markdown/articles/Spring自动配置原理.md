@@ -6,10 +6,15 @@
 
 - Tomcat启动并部署Spring应用
 
+#### 整体流程
+
+![SpringBoot自动配置原理.png](/docs/markdown/imgs/SpringBoot自动配置原理.png)
+
 #### SpringBoot自动配置
 
-- SPI机制
-
+- Spring SPI机制
+- Tomcat SPI机制
+![image-20220222000009607](/docs/markdown/imgs/image-20220222000009607.png)
 - ConfigurationClassPostProcessor
 
 #### 待办事项
