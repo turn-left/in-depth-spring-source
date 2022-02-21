@@ -14,7 +14,7 @@
 
 #### SpringBoot
 
-- SpringBoot 自动配置原理
+- [SpringBoot 自动配置原理](/docs/markdown/articles/Spring自动配置原理.md)
 - SpringBoot 内嵌tomcat原理
 - SpringBoot starter原理
 - SpringBoot 属性注入
