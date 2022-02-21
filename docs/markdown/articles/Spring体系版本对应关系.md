@@ -1,6 +1,4 @@
-## SpringBoot、SpringFramework版本对应关系
-
-
+## Spring体系版本对应关系
 
 | spring-boot版本 | 依赖spring-framework | jdk版本   | 发布时间 |
 | --------------- | -------------------- | --------- | -------- |
