@@ -4,8 +4,8 @@
 
 #### 几个问题
 
-- 分析Spring源码究竟是学什么？Spring真正强大的地方是什么？IOC?AOP?
-- Spring、SpringBoot、mybatis、eureka、ribbon、nacos、sentinel...都是在哪些切入点进行整合的？
+- 分析Spring源码究竟是学什么？Spring真正强大的点是什么？IoC?AOP?
+- SpringBoot、mybatis、eureka、ribbon、nacos、sentinel...都是在哪些切入点进行整合的？
 - 如何设计适合自己项目的Spring组件？
 - Spring框架源码设计思路对项目可扩展性、复用性带来的启示？
   <br>
