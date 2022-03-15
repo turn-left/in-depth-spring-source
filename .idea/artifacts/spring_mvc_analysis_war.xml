@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-mvc-analysis:war">
+    <output-path>$PROJECT_DIR$/spring-mvc-analysis/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-mvc-analysis</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-mvc-analysis-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-mvc-analysis:war exploded" />
+    </root>
+  </artifact>
+</component>

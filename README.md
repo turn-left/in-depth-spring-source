@@ -23,10 +23,11 @@
 
 #### SpringBoot
 
-- [SpringBoot 自动配置原理](/docs/markdown/articles/Spring自动配置原理.md)
+- [SpringBoot：自动配置原理](/docs/markdown/articles/Spring自动配置原理.md)
 - SpringBoot 内嵌tomcat原理
 - SpringBoot starter原理
 - SpringBoot 属性注入
+- [SpringBoot：可执行jar原理](/docs/markdown/articles/彻底透析SpringBoot可执行jar原理.md)
 
 #### 基于Spring自定义
 
