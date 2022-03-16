@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 /**
- * Spring MVC 配置
+ * SpringMVC配置，Spring子容器
  * <p>
  * 仅扫描控制层
  *
