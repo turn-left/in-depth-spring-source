@@ -1,9 +1,13 @@
 package com.ethen.webapp.config;
 
-import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import javax.servlet.ServletContext;
+
 /**
+ * Servlet3.0 SPI机制
+ * fixme 容器启动初始化Spring容器
+ *
  * @author ethenyang@126.com
  * @since 2022/03/16
  */
@@ -17,7 +21,7 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
      */
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[0];
+        return new Class[]{RootAppConfig.class};
     }
 
     /**
@@ -36,7 +40,7 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
      * Specify the servlet mapping(s) for the {@code DispatcherServlet} &mdash;
      * for example {@code "/"}, {@code "/app"}, etc.
      *
-     * @see #registerDispatcherServlet(ServletContext)
+     * @see #registerDispatcherServlet(ServletContext) 
      */
     @Override
     protected String[] getServletMappings() {
