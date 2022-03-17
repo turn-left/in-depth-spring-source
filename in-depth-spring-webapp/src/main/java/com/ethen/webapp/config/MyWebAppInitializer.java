@@ -5,10 +5,11 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 import javax.servlet.ServletContext;
 
 /**
- * Servlet3.0 SPI机制
- * fixme 容器启动初始化Spring容器
+ * Servlet3.0 SPI机制 fixme 容器启动初始化Spring容器
  *
  * @author ethenyang@126.com
+ * @see org.springframework.web.SpringServletContainerInitializer
+ * fixme {@link javax.servlet.annotation.HandlesTypes}实现原理？
  * @since 2022/03/16
  */
 public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -40,7 +41,7 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
      * Specify the servlet mapping(s) for the {@code DispatcherServlet} &mdash;
      * for example {@code "/"}, {@code "/app"}, etc.
      *
-     * @see #registerDispatcherServlet(ServletContext) 
+     * @see #registerDispatcherServlet(ServletContext)
      */
     @Override
     protected String[] getServletMappings() {
