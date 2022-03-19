@@ -1,5 +1,6 @@
 package com.ethen.webapp.config;
 
+import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import javax.servlet.ServletContext;
@@ -9,7 +10,8 @@ import javax.servlet.ServletContext;
  *
  * @author ethenyang@126.com
  * @see org.springframework.web.SpringServletContainerInitializer
- * fixme {@link javax.servlet.annotation.HandlesTypes}实现原理？
+ * fixme Servlet容器启动时会收集类路径下{@link javax.servlet.annotation.HandlesTypes}中标注的接口，
+ * Spring中是{@link WebApplicationInitializer}接口
  * @since 2022/03/16
  */
 public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
