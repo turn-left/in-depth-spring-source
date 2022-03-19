@@ -36,7 +36,7 @@
 ### 问题
 
 - 常用BeanPostProcessor总结
-    - 常用BeanFactoryPostProcessor总结
+- 常用BeanFactoryPostProcessor总结
 - Environment类深入分析
 - SpringBoot条件注入总结
 - SpringBoot自动装配
