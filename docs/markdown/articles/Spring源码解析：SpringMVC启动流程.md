@@ -8,16 +8,15 @@ Spring官方将Spring容器划分为两个层级，一层包含Controller、视�
 
 ![mvc-context-hierarchy](/docs/markdown/imgs/mvc-context-hierarchy.png)
 
-
-
 #### 传统SpringWeb工程
 
 Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 
-- ContextLoaderListener
+- ContextLoaderListenerSpring源码解析：SpringMVC启动流程.md
 - DispatcherServlet
 
 ```xml
+
 <web-app>
 
     <listener>
@@ -56,6 +55,7 @@ Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 在pom文件中添加SpringMVC基础依赖
 
 ```xml
+
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
@@ -64,15 +64,15 @@ Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 </dependency>
 
 <dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-webmvc</artifactId>
-    <version>5.2.12</version>
+<groupId>org.springframework</groupId>
+<artifactId>spring-webmvc</artifactId>
+<version>5.2.12</version>
 </dependency>
 
 <dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>javax.servlet-api</artifactId>
-    <version>4.0.1</version>
+<groupId>javax.servlet</groupId>
+<artifactId>javax.servlet-api</artifactId>
+<version>4.0.1</version>
 </dependency>
 ```
 
@@ -103,8 +103,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RootAppConfig {
 }
 ```
-
-
 
 ```java
 package com.ethen.webapp.config;
@@ -203,3 +201,4 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
 
 #### MVC容器启动流程
 
+![img](../imgs/SpringMVC启动流程原理.png)
