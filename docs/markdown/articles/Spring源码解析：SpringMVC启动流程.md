@@ -10,7 +10,7 @@ Spring官方将Spring容器划分为两个层级，一层包含Controller、视�
 
 
 
-#### SpringWeb工程
+#### 传统SpringWeb工程
 
 Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 
