@@ -1,6 +1,6 @@
 ## Spring源码解析：SpringMVC启动流程
 
-#### Spring父子容器
+#### I. Spring父子容器
 
 - [SpringMVC官方法文档](https://docs.spring.io/spring-framework/docs/5.3.10/reference/html/web.html#spring-web)
 
@@ -8,7 +8,7 @@ Spring官方将Spring容器划分为两个层级，一层包含Controller、视�
 
 ![mvc-context-hierarchy](/docs/markdown/imgs/mvc-context-hierarchy.png)
 
-#### 传统SpringWeb工程
+#### II. 传统SpringWeb工程
 
 Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 
@@ -48,7 +48,7 @@ Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 
 根据Spring官方对父子容器的介绍，我们推测这里`ContextLoaderListener`、`DispatcherServlet`分别于父子容器的初始化相关。带着这个假设分析SpringMVC启动源码。
 
-#### 基于Servlet3.0+创建工程
+#### III. 基于Servlet3.0+创建工程
 
 基于maven archetype(=`maven-archetype.webapp`)创建web工程
 
@@ -199,6 +199,6 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
 }
 ```
 
-#### MVC容器启动流程
+#### IV. MVC容器启动流程
 
 ![img](../imgs/SpringMVC启动流程原理.png)
