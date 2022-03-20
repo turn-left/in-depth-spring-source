@@ -50,9 +50,9 @@ Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 
 #### III. 基于Servlet3.0+创建工程
 
-基于maven archetype(=`maven-archetype.webapp`)创建web工程
+基于maven archetype(=`maven-archetype.webapp`)创建web工程。工程代码参考[in-depth-spring-webapp](https://github.com/turn-left/in-depth-spring-source/tree/master/in-depth-spring-webapp)
 
-在pom文件中添加SpringMVC基础依赖
+- 在pom文件中添加SpringMVC基础依赖
 
 ```xml
 
@@ -77,15 +77,11 @@ Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 ```
 
 创建父子容器 `RootAppConfig` 、`WebAppConfig`以及`WebApplicationInitializer`实现类。
-
+- Spring父容器`RootAppConfig`
 ```java
 package com.ethen.webapp.config;
 
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.FilterType;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RestController;
+// import ...
 
 /**
  * Spring根容器
@@ -104,18 +100,11 @@ public class RootAppConfig {
 }
 ```
 
+- Spring子容器`WebAppConfig`
 ```java
 package com.ethen.webapp.config;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.FilterType;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.view.InternalResourceViewResolver;
+// import ...
 
 /**
  * SpringMVC配置，Spring子容器
@@ -147,10 +136,7 @@ public class WebAppConfig implements WebMvcConfigurer {
 ```java
 package com.ethen.webapp.config;
 
-import org.springframework.web.WebApplicationInitializer;
-import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-
-import javax.servlet.ServletContext;
+// import ...
 
 /**
  * Servlet3.0 SPI机制 fixme 容器启动初始化Spring容器
