@@ -188,3 +188,20 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
 #### IV. MVC容器启动流程
 
 ![img](../imgs/SpringMVC启动流程原理.png)
+
+#### V. MVC九大组件
+
+
+
+| 组件                        | 用途         |
+| --------------------------- | ------------ |
+| HandlerMapping              | 处理器映射器 |
+| HandlerAdapter              | 处理器适配器 |
+| HandlerExceptionResolver    | ...          |
+| ViewResolver                | ...          |
+| RequestToViewNameTranslator | ...          |
+| LocaleResolver              | ...          |
+| ThemeResolver               | ...          |
+| MultipartResolver           | ...          |
+| FlashMapManager             | ...          |
+
