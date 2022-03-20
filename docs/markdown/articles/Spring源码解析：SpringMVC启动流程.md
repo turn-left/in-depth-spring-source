@@ -130,7 +130,7 @@ public class WebAppConfig implements WebMvcConfigurer {
     }
 }
 ```
-
+- web服务入口类`MyWebAppInitializer`
 这里我们继承了`AbstractAnnotationConfigDispatcherServletInitializer`抽象类，作为`WebApplicationInitializer`实现。
 
 ```java
