@@ -6,7 +6,7 @@
 
 Spring官方将Spring容器划分为两个层级，一层包含Controller、视图以及其他的web相关组件的bean容器，主要接收Web请求；另一层包含处理业务逻辑、数据库访问逻辑的组件的bean容器，称为root容器。
 
-![mvc-context-hierarchy](/docs/markdown/imgs/mvc-context-hierarchy.png)
+![mvc-context-hierarchy](/docs/imgsext-hierarchy.png)
 
 #### II. 传统SpringWeb工程
 

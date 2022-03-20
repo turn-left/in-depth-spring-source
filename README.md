@@ -15,21 +15,21 @@
 
 - Spring源码：基础设施&组件
 - Spring源码：Bean的生命周期
-- Spring源码：IOC
-- Spring源码：AOP
-- Spring源码：事务
-- Spring源码：缓存
-- [Spring源码：MVC启动流程分析](docs/markdown/articles/Spring源码解析：SpringMVC启动流程.md)
+- Spring源码：IOC原理
+- Spring源码：AOP原理
+- Spring源码：事务原理
+- Spring源码：缓存原理
+- [Spring源码：MVC启动流程分析](docs/articles/Spring源码：SpringMVC启动流程分析.md)
 - Spring源码：MVC请求处理分析
 - Spring终章：框架扩展点及应用分析
 
 #### SpringBoot
 
-- [SpringBoot：自动配置原理](/docs/markdown/articles/Spring自动配置原理.md)
-- SpringBoot 内嵌tomcat原理
-- SpringBoot starter原理
-- SpringBoot 属性注入
-- [SpringBoot：可执行jar原理](/docs/markdown/articles/彻底透析SpringBoot可执行jar原理.md)
+- [SpringBoot：自动配置原理](/docs/articles/SpringBoot源码：Spring自动配置原理.md)
+- SpringBoot源码：内嵌tomcat原理
+- SpringBoot源码：starter原理
+- SpringBoot源码：属性注入
+- [SpringBoot源码：可执行jar原理](/docs/articles/SpringBoot源码：彻底透析SpringBoot可执行jar原理.md)
 
 #### 基于Spring自定义
 
