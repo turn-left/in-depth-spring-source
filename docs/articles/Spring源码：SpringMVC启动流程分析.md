@@ -50,7 +50,9 @@ Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 
 #### III. 基于Servlet3.0+创建工程
 
-基于maven archetype(=`maven-archetype.webapp`)创建web工程。工程代码参考[in-depth-spring-webapp](https://github.com/turn-left/in-depth-spring-source/tree/master/in-depth-spring-webapp)
+基于maven archetype(=`maven-archetype.webapp`)
+创建web工程。工程代码参考[in-depth-spring-webapp](https://github.com/turn-left/in-depth-spring-source/tree/master/in-depth-spring-webapp)
+。
 
 - 在pom文件中添加SpringMVC基础依赖
 
@@ -77,7 +79,9 @@ Servlet3.0以前的Spring Web工程需要通过web.xml配置两大组件：
 ```
 
 创建父子容器 `RootAppConfig` 、`WebAppConfig`以及`WebApplicationInitializer`实现类。
+
 - Spring父容器`RootAppConfig`
+
 ```java
 package com.ethen.webapp.config;
 
@@ -101,6 +105,7 @@ public class RootAppConfig {
 ```
 
 - Spring子容器`WebAppConfig`
+
 ```java
 package com.ethen.webapp.config;
 
@@ -130,8 +135,9 @@ public class WebAppConfig implements WebMvcConfigurer {
     }
 }
 ```
+
 - web服务入口类`MyWebAppInitializer`
-这里我们继承了`AbstractAnnotationConfigDispatcherServletInitializer`抽象类，作为`WebApplicationInitializer`实现。
+  这里我们继承了`AbstractAnnotationConfigDispatcherServletInitializer`抽象类，作为`WebApplicationInitializer`实现。
 
 ```java
 package com.ethen.webapp.config;
@@ -204,3 +210,13 @@ Spring MVC是Spring提供的一个基于MVC设计模式的轻量级 Web 开发�
 | RequestToViewNameTranslator | 从请求中获取ViewName                                         | RequestToViewNameTranslator组件的作用是从请求中获取ViewName。因为ViewResolver根据ViewName查找View，但有的Handler处理完成之后，没有设置View，也没有设置ViewName，便要通过这个组件来从请求中查找ViewName。 |
 | ViewResolvers               | 主要作用是将String类型的视图名和Locale解析为View类型的视图   | ViewResolver即视图解析器，相信大家对这个组件应该很熟悉了。通常在Spring MVC的配置文件中，都会配上一个实现类来进行视图解析。这个组件的主要作用是将String类型的视图名和Locale解析为View类型的视图，只有一个resolveViewName()方法。从方法的定义可以看出，Controller层返回的String类型的视图名viewName最终会在这里被解析成为View。View是用来渲染页面的，也就是说，它会将程序返回的参数和数据填入模板中，生成HTML文件。ViewResolver在这个过程中主要做两件大事：ViewResolver会找到渲染所用的模板（第一件大事）和所用的技术（第二件大事，其实也就是找到视图的类型，如JSP）并填入参数。默认情况下，Spring MVC会为我们自动配置一个InternalResourceViewResolver，是针对JSP类型视图的。 |
 | FlashMapManager             | 用于重定向时的参数传递。                                     | 说到FlashMapManager组件，得先说一下FlashMap。FlashMap用于重定向时的参数传递，比如在处理用户订单时，为了避免重复提交，可以处理完post请求后重定向到一个get请求，这个get请求可以用来显示订单详情之类的信息。这样做虽然可以规避用户重新提交订单的问题，但是在这个页面上要显示订单的信息，这些数据从哪里获取呢？因为重定向是没有传递参数这一功能的，如果不想把参数写进URL（其实也不推荐这么做，除了URL有长度限制，把参数都直接暴露也不安全），那么就可以通过FlashMap来传递。只需要在重定向之前将要传递的数据写入请求（可以通过ServletRequestAttributes.getRequest()方法获得）的属性OUTPUT_FLASH_MAP_ATTRIBUTE中，这样在重定向之后的Handler中Spring就会自动将其设置到Model中，在显示订单信息的页面上就可以直接从Model中获得数据。FlashMapManager就是用来管理FlashMap的。 |
+
+#### VI. SpringMVC关键组件执行流程
+
+![img.png](../imgs/spring-mvc-process-01.png)
+
+#### 参考资料
+
+- [SpringMVC执行流程及工作原理](https://www.jianshu.com/p/8a20c547e245)
+
+- [Spring核心原理分析之MVC九大组件](https://cloud.tencent.com/developer/article/1925541)
