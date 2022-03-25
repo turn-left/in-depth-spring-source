@@ -8,14 +8,14 @@
 
 #### 整体流程
 
-![SpringBoot自动配置原理.png](/docs/imgsot自动配置原理.png)
+![SpringBoot自动配置原理.png](/docs/imgs/SpringBoot自动配置原理.png)
 
 #### SpringBoot自动配置
 
 - Spring SPI机制
 - Tomcat SPI机制
   <br>
-![image-20220222000009607](/docs/imgs220222000009607.png)
+![image-20220222000009607](/docs/imgs/image-20220222000009607.png)
 
 - ConfigurationClassPostProcessor
 
