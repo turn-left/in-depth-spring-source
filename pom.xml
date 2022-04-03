@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>in-depth-spring-webapp</module>
+        <module>spring-boot-starter-customize</module>
     </modules>
     <parent>
         <artifactId>spring-boot-parent</artifactId>

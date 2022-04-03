@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.ethen.config.UserAutoConfiguration \
+  com.ethen.config.ThreadPoolAutoConfiguration
