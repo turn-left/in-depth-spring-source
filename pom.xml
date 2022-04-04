@@ -34,6 +34,15 @@
                 <artifactId>spring-webmvc</artifactId>
                 <version>5.2.12.RELEASE</version>
             </dependency>
+            <!-- 定义Spring cloud版本约束 -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
