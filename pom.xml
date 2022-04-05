@@ -17,6 +17,7 @@
     <modules>
         <module>in-depth-spring-webapp</module>
         <module>spring-boot-starter-customize</module>
+        <module>in-depth-security</module>
     </modules>
 
     <properties>

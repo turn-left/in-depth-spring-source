@@ -1,0 +1,12 @@
+spring:
+  security:
+    user:
+      name: hiyoyo
+      password: root
+  application:
+    name: security-app
+
+server:
+  port: 8080
+  servlet:
+    context-path: /security-app
