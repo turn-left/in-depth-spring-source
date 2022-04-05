@@ -29,6 +29,7 @@
 - SpringBoot源码：starter原理
 - SpringBoot源码：属性注入
 - [SpringBoot源码：可执行jar原理](/docs/articles/SpringBoot源码：彻底透析SpringBoot可执行jar原理.md)
+- [SpringSecurity：实战及原理剖析](docs/articles/security/SpringSecurity实战及原理剖析.md)
 
 #### 基于Spring自定义
 
