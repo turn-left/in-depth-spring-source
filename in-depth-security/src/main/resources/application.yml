@@ -10,3 +10,6 @@ server:
   port: 8080
   servlet:
     context-path: /security-app
+    session:
+      # http session 过期时间设置
+      timeout:
