@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: in-depth-spring-data
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: hello-mongo
+      username: hiyoyo
+      password: root123
+server:
+  port: 6060

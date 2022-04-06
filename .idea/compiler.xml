@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="in-depth-spring-data" />
+        <module name="spring-boot-starter-customize" />
+        <module name="in-depth-security" />
+        <module name="in-depth-spring-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="in-depth-security" target="8" />
+      <module name="in-depth-spring-data" target="8" />
+      <module name="in-depth-spring-source" target="8" />
+      <module name="in-depth-spring-webapp" target="1.7" />
+      <module name="spring-boot-starter-customize" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

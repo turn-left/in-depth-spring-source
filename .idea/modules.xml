@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/in-depth-security/in-depth-security.iml" filepath="$PROJECT_DIR$/in-depth-security/in-depth-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/in-depth-spring-data/in-depth-spring-data.iml" filepath="$PROJECT_DIR$/in-depth-spring-data/in-depth-spring-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/in-depth-spring-source.iml" filepath="$PROJECT_DIR$/in-depth-spring-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/in-depth-spring-webapp/in-depth-spring-webapp.iml" filepath="$PROJECT_DIR$/in-depth-spring-webapp/in-depth-spring-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-customize/spring-boot-starter-customize.iml" filepath="$PROJECT_DIR$/spring-boot-starter-customize/spring-boot-starter-customize.iml" />
+    </modules>
+  </component>
+</project>

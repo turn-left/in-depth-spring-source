@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="in-depth-spring-webapp:war">
+    <output-path>$PROJECT_DIR$/in-depth-spring-webapp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>in-depth-spring-webapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="in-depth-spring-webapp.war">
+      <element id="artifact" artifact-name="in-depth-spring-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>
