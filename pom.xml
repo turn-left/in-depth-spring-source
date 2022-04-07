@@ -19,6 +19,7 @@
         <module>spring-boot-starter-customize</module>
         <module>in-depth-security</module>
         <module>in-depth-spring-data</module>
+        <module>in-depth-scenarios</module>
     </modules>
 
     <properties>
