@@ -35,6 +35,8 @@
 
 ### 问题
 
+- [技术债2022](docs/articles/技术债2022.md)
+  
 - 常用BeanPostProcessor总结
 - 常用BeanFactoryPostProcessor总结
 - Environment类深入分析
