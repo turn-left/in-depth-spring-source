@@ -20,6 +20,7 @@
 - Spring源码：事务原理
 - Spring源码：缓存原理
 - [Spring源码：MVC启动&请求分析](docs/articles/Spring源码：SpringMVC启动流程分析.md)
+- [Spring源码：如何优雅的使用HttpMessageConvert](docs/articles/SpringMVC：如何优雅的使用HttpMessageConvert.md)
 - Spring终章：框架扩展点及应用分析
 
 #### SpringBoot
