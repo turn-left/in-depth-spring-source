@@ -30,7 +30,7 @@
 
 `HttpInputMessage`表示一个 **HTTP** 输入消息，由请求头**headers**和一个可读的请求体**body**组成，通常由服务器端的 **HTTP** 请求句柄或客户端的 **HTTP** 响应句柄实现。
 
-![HttpInputMessage](/docs/imgs/1739473-20211231173521291-1633800103.png)
+![HttpInputMessage](docs/imgs/1739473-20211231173521291-1633800103.png)
 
 而`HttpServletRequest`是`ServletRequest`的扩展接口，提供了**HTTP Servlet**的请求信息，也包含了请求头和请求体，所以两者是有联系的。我们只要找出两者之间的实际关系就能让`HttpMessageConverter`去读取并处理`HttpServletRequest`携带的请求信息。
 
