@@ -13,8 +13,8 @@ import java.util.concurrent.*;
 @Configuration
 @EnableConfigurationProperties(ThreadPoolProperties.class)
 public class ThreadPoolAutoConfiguration {
-    @Bean
     @ConditionalOnProperty(prefix = "spring.thread.pool", value = "enabled", havingValue = "true", matchIfMissing = false)
+    @Bean
     public ThreadPoolExecutor ioIntensiveThreadPoolExecutor(ThreadPoolProperties properties) {
         ThreadPoolProperties.ThreadPoolParams params = properties.getIoIntensive();
         if (params == null) {

@@ -38,7 +38,13 @@
 
 
 
-#### HandlerInterceptor
+#### HandlerInterceptor拦截器执行原理
+
+
+
+#### @ControllerAdvice全局异常处理原理
+
+RequestMappingHandlerAdapter -> afterPropertiesSet() -> initControllerAdviceCache()
 
 
 

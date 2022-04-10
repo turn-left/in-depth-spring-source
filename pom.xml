@@ -21,6 +21,7 @@
         <module>in-depth-spring-data</module>
         <module>in-depth-scenarios</module>
         <module>in-depth-spring-usecase</module>
+        <module>common-api</module>
     </modules>
 
     <properties>

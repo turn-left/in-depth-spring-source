@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="in-depth-scenarios" />
-        <module name="in-depth-spring-data" />
+        <module name="common-api" />
         <module name="spring-boot-starter-customize" />
-        <module name="in-depth-security" />
         <module name="in-depth-spring-webapp" />
         <module name="in-depth-spring-usecase" />
+        <module name="in-depth-scenarios" />
+        <module name="in-depth-spring-data" />
+        <module name="in-depth-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-api" target="8" />
       <module name="in-depth-scenarios" target="8" />
       <module name="in-depth-security" target="8" />
       <module name="in-depth-spring-data" target="8" />
