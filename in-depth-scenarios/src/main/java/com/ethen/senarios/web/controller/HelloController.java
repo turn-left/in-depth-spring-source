@@ -1,4 +1,4 @@
-package com.ethen.controller;
+package com.ethen.senarios.web.controller;
 
 import com.ethen.common.ResponseHelper;
 import org.springframework.context.EnvironmentAware;

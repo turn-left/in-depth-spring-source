@@ -20,6 +20,7 @@
         <module>in-depth-security</module>
         <module>in-depth-spring-data</module>
         <module>in-depth-scenarios</module>
+        <module>in-depth-spring-usecase</module>
     </modules>
 
     <properties>

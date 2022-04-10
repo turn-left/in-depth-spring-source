@@ -12,6 +12,7 @@
         <module name="spring-boot-starter-customize" />
         <module name="in-depth-security" />
         <module name="in-depth-spring-webapp" />
+        <module name="in-depth-spring-usecase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="in-depth-security" target="8" />
       <module name="in-depth-spring-data" target="8" />
       <module name="in-depth-spring-source" target="8" />
+      <module name="in-depth-spring-usecase" target="8" />
       <module name="in-depth-spring-webapp" target="1.7" />
       <module name="spring-boot-starter-customize" target="8" />
     </bytecodeTargetLevel>

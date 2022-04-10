@@ -4,4 +4,4 @@ server:
     context-path: /scenarios
 spring:
   application:
-    name: spring-scenarios
+    name: scenarios
