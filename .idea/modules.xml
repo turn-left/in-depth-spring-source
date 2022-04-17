@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/in-depth-scenarios/in-depth-scenarios.iml" filepath="$PROJECT_DIR$/in-depth-scenarios/in-depth-scenarios.iml" />
       <module fileurl="file://$PROJECT_DIR$/in-depth-security/in-depth-security.iml" filepath="$PROJECT_DIR$/in-depth-security/in-depth-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/in-depth-spring-data/in-depth-spring-data.iml" filepath="$PROJECT_DIR$/in-depth-spring-data/in-depth-spring-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/in-depth-spring-source.iml" filepath="$PROJECT_DIR$/in-depth-spring-source.iml" />

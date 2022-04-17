@@ -11,7 +11,6 @@
         <module name="spring-boot-starter-customize" />
         <module name="in-depth-spring-webapp" />
         <module name="in-depth-spring-usecase" />
-        <module name="in-depth-scenarios" />
         <module name="in-depth-spring-data" />
         <module name="in-depth-security" />
       </profile>
