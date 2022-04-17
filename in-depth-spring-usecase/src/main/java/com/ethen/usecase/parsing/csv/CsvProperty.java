@@ -1,4 +1,4 @@
-package com.ethen.usecase.parse;
+package com.ethen.usecase.parsing.csv;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

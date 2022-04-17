@@ -1,4 +1,4 @@
-package com.ethen.usecase.parse;
+package com.ethen.usecase.parsing.csv;
 
 
 import com.google.common.collect.Lists;

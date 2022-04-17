@@ -1,7 +1,9 @@
-package com.ethen.usecase.parse;
+package com.ethen.usecase.parsing;
 
 import cn.afterturn.easypoi.excel.annotation.Excel;
 
+import com.ethen.usecase.parsing.csv.CsvEntity;
+import com.ethen.usecase.parsing.csv.CsvProperty;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.ToString;

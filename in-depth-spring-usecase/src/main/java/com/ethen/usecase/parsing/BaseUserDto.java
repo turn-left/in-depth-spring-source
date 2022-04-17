@@ -1,4 +1,4 @@
-package com.ethen.usecase.parse;
+package com.ethen.usecase.parsing;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
