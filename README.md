@@ -32,13 +32,14 @@
 - SpringBoot源码：属性注入
 - [SpringBoot源码：可执行jar原理](/docs/articles/SpringBoot源码：彻底透析SpringBoot可执行jar原理.md)
 - [SpringSecurity：实战及原理剖析](docs/articles/security/SpringSecurity实战及原理剖析.md)
+- [SpringSecurity：OAuth2.0分析](docs/articles/security/SpringSecurityOAuth2实战.md)
 
 #### 基于Spring自定义
 
 ### 问题
 
 - [技术债2022](docs/articles/技术债2022.md)
-  
+
 - 常用BeanPostProcessor总结
 - 常用BeanFactoryPostProcessor总结
 - Environment类深入分析
